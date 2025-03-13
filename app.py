@@ -56,6 +56,7 @@ def add_user():
 @app.route('/users', methods=['GET'])
 def get_users():
 
+
     try:
         conn = get_db_connection()
         cursor = conn.cursor()
